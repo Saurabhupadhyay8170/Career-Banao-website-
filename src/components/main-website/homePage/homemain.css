@@ -1,0 +1,17 @@
+
+
+@media (min-width: 400px) and (max-width: 530px) {
+  .section1-img {
+    height: 40vh; 
+  }
+}
+@media (min-width: 530px) and (max-width: 640px) {
+  .section1-img {
+    height: 50vh; 
+  }
+}
+@media (max-width:600px){
+  .hide-content{
+    display: none;
+  }
+}

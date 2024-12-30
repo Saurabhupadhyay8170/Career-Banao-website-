@@ -1,0 +1,23 @@
+.custom-video {
+  height: 70vh; /* Full height on larger screens */
+  object-fit: cover; /* Ensures video covers the container */
+}
+.custom-text{
+  padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .custom-video {
+    height: 50vh; /* Adjust height for mobile devices */
+  }
+  .custom-text{
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .custom-text h1{
+    font-size: 16px;
+  }
+  .custom-text p{
+    font-size: 13px;
+  }
+}
