@@ -7,8 +7,8 @@ const ReffFrnd = () => {
 
   // Array of education levels
   const AddTaken = [
-    { label: "Yes", path: "/frndform" },
-    { label: "No", path: "/thanku" }
+    { label: "Yes", path: "/CollegeFinder-frndform" },
+    { label: "No", path: "/CollegeFinder-thanku" }
   ];
 
   // Handle button click to set selected education level
@@ -41,7 +41,7 @@ const ReffFrnd = () => {
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <Link to="/adtaken">
+        <Link to="/CollegeFinder-adtaken">
           <button className="bg-[#1F618D] text-white border font-bold border-gray-300 py-2 px-[50px] rounded-lg hover:bg-[#F89A00] hover:text-white transition duration-300">
             PREV
           </button>

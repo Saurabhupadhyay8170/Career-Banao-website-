@@ -42,7 +42,7 @@ const DegreeScore = () => {
             PREV
           </button>
         </Link>
-        <Link to="/degreequs">
+        <Link to="/CollegeFinder-degreequs">
           <button
             className={`${
               canProceed ? "bg-[#1F618D]" : "bg-gray-400 cursor-not-allowed"

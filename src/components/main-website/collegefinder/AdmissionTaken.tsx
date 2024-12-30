@@ -7,7 +7,7 @@ const AdmissionTaken = () => {
 
   // Array of education levels
   const AddTaken = [
-    { label: "Yes", path: "/Reff" },
+    { label: "Yes", path: "/CollegeFinder-Reff" },
     { label: "No", path: "/CollegeFinder" }
   ];
 

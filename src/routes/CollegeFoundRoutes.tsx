@@ -29,97 +29,97 @@ import ThankuPage from 'src/pages/main-website/collegefounder/ThankuPage'
       element:CollegeFounderPage,
     },
     {
-      path:"score10th",
+      path:"/CollegeFinder-score10th",
       element:Score10thPage,
     },
     {
-      path:"score12th",
+      path:"/CollegeFinder-score12th",
       element:Score12thPage,
     },
     
     {
-      path:"course10th",
+      path:"/CollegeFinder-course10th",
       element:Course10thPage,
     },
     {
-      path:"question10th",
+      path:"/CollegeFinder-question10th",
       element:AdmissionQues10thPage,
     },
     {
-      path:"question12th",
+      path:"/CollegeFinder-question12th",
       element:AdmissionQues12thPage,
     },
     {
-      path:"budget",
+      path:"/CollegeFinder-budget",
       element:BudgetPage,
     },
     {
-      path:"emi",
+      path:"/CollegeFinder-emi",
       element:EMIPage,
     },
     {
-      path:"formsub",
+      path:"/CollegeFinder-formsub",
       element:FormPage,
     },
     {
-      path:"regularmode",
+      path:"/CollegeFinder-regularmode",
       element:RegularModePage,
     },
     {
-      path:"diplomacourse",
+      path:"/CollegeFinder-diplomacourse",
       element:DiplomaHolderPage,
     },
     {
-      path:"diplomamode",
+      path:"/CollegeFinder-diplomamode",
       element:DiplomaModePage,
     },
     {
-      path:"diplomaqus",
+      path:"/CollegeFinder-diplomaqus",
       element:DiplomaQusPage,
     },
     {
-      path:"diplomascore",
+      path:"/CollegeFinder-diplomascore",
       element:DiplomaDegreeScorePage,
     },
 
     {
-      path:"diplomabudget",
+      path:"/CollegeFinder-diplomabudget",
       element:BudgetDiplomaPage,
     },
     {
-      path:"onlinemode",
+      path:"/CollegeFinder-onlinemode",
       element:OnlineModePage,
     },
     {
-      path:"mode",
+      path:"/CollegeFinder-mode",
       element:ModePage,
     },
     {
-      path:"degreescore",
+      path:"/CollegeFinder-degreescore",
       element:DegreeScorePage,
     },
     {
-      path:"degreequs",
+      path:"/CollegeFinder-degreequs",
       element:DegreeQuestionPage,
     },
     {
-      path:"adtaken",
+      path:"/CollegeFinder-adtaken",
       element:AdmissionTakenPage,
     },
     {
-      path:"Reff",
+      path:"/CollegeFinder-Reff",
       element:ReffFrndPage,
     },
     {
-      path:"frndform",
+      path:"/CollegeFinder-frndform",
       element:FrndFormPage,
     },
     {
-      path:"thanku",
+      path:"/CollegeFinder-thanku",
       element:ThankuPage,
     },
     {
-      path:"budget10th",
+      path:"/CollegeFinder-budget10th",
       element:Budget10thPage,
     },
   ]

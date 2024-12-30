@@ -7,10 +7,10 @@ const DiplomaHolder = () => {
 
   // Array of education levels
   const educationLevels = [
-    { label: "Engineering", path: "/diplomabudget" },
-    { label: "Management", path: "/diplomabudget" },
-    { label: "Medical", path: "/diplomabudget" },
-    { label: "Other", path: "/diplomabudget" }
+    { label: "Engineering", path: "/CollegeFinder-diplomabudget" },
+    { label: "Management", path: "/CollegeFinder-diplomabudget" },
+    { label: "Medical", path: "/CollegeFinder-diplomabudget" },
+    { label: "Other", path: "/CollegeFinder-diplomabudget" }
   ];
 
   // Handle button click to set selected education level
@@ -43,7 +43,7 @@ const DiplomaHolder = () => {
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <Link to="/diplomamode">
+        <Link to="/CollegeFinder-diplomamode">
           <button className="bg-[#1F618D] text-white border font-bold border-gray-300 py-2 px-[50px] rounded-lg hover:bg-[#F89A00] hover:text-white transition duration-300">
             PREV
           </button>

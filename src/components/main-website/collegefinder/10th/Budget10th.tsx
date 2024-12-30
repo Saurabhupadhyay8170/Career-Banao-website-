@@ -12,7 +12,7 @@ const Budget10th = () => {
   return (
     <>
      <div>
-      <Budget budgetRanges={modifiedRanges} nextPath="/formsub" prevPath="/course10th"/>
+      <Budget budgetRanges={modifiedRanges} nextPath="/CollegeFinder-formsub" prevPath="/CollegeFinder-course10th"/>
      </div>
     </>
   )

@@ -7,11 +7,11 @@ const RegularMode = () => {
 
   // Array of education levels
   const educationLevels = [
-    { label: "Engineering", path: "/budget" },
-    { label: "Management", path: "/budget" },
-    { label: "Law", path: "/budget" },
-    { label: "Medical", path: "/budget" },
-    { label: "Other", path: "/budget" }
+    { label: "Engineering", path: "/CollegeFinder-budget" },
+    { label: "Management", path: "/CollegeFinder-budget" },
+    { label: "Law", path: "/CollegeFinder-budget" },
+    { label: "Medical", path: "/CollegeFinder-budget" },
+    { label: "Other", path: "/CollegeFinder-budget" }
   ];
 
   // Handle button click to set selected education level
@@ -44,7 +44,7 @@ const RegularMode = () => {
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <Link to="/question12th">
+        <Link to="/CollegeFinder-question12th">
           <button className="bg-[#1F618D] text-white border font-bold border-gray-300 py-2 px-[50px] rounded-lg hover:bg-[#F89A00] hover:text-white transition duration-300">
             PREV
           </button>

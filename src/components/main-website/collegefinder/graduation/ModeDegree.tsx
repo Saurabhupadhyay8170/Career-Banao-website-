@@ -7,8 +7,8 @@ const ModeDegree = () => {
 
   // Array of education levels
   const EmployQue = [
-    { label: "Regular Mode", path: "/regularmode" },
-    { label: "Online Mode", path: "/onlinemode" }
+    { label: "Regular Mode", path: "/CollegeFinder-regularmode" },
+    { label: "Online Mode", path: "/CollegeFinder-onlinemode" }
   ];
 
   // Handle button click to set selected education level
@@ -41,7 +41,7 @@ const ModeDegree = () => {
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <Link to="/degreequs">
+        <Link to="/CollegeFinder-degreequs">
           <button className="bg-[#1F618D] text-white border font-bold border-gray-300 py-2 px-[50px] rounded-lg hover:bg-[#F89A00] hover:text-white transition duration-300">
             PREV
           </button>

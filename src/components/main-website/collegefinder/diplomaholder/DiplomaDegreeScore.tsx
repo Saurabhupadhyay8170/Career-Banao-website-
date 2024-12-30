@@ -42,7 +42,7 @@ const DiplomaDegreeScore = () => {
             PREV
           </button>
         </Link>
-        <Link to="/diplomaqus">
+        <Link to="/CollegeFinder-diplomaqus">
           <button
             className={`${
               canProceed ? "bg-[#1F618D]" : "bg-gray-400 cursor-not-allowed"

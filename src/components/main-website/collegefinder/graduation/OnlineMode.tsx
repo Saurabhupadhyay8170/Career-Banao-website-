@@ -7,11 +7,11 @@ const OnlineMode = () => {
 
   // Array of education levels
   const educationLevels = [
-    { label: "Online BCA", path: "/budget" },
-    { label: "Online BBA", path: "/budget" },
-    { label: "Online BA", path: "/budget" },
-    { label: "Online B.Com", path: "/budget" },
-    { label: "Other", path: "/budget" }
+    { label: "Online BCA", path: "/CollegeFinder-budget" },
+    { label: "Online BBA", path: "/CollegeFinder-budget" },
+    { label: "Online BA", path: "/CollegeFinder-budget" },
+    { label: "Online B.Com", path: "/CollegeFinder-budget" },
+    { label: "Other", path: "/CollegeFinder-budget" }
   ];
 
   // Handle button click to set selected education level
@@ -44,7 +44,7 @@ const OnlineMode = () => {
         ))}
       </div>
       <div className="mt-5 flex gap-2">
-        <Link to="/mode">
+        <Link to="/CollegeFinder-mode">
           <button className="bg-[#1F618D] text-white border font-bold border-gray-300 py-2 px-[50px] rounded-lg hover:bg-[#F89A00] hover:text-white transition duration-300">
             PREV
           </button>

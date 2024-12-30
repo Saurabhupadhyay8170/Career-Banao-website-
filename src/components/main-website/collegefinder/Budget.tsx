@@ -7,7 +7,7 @@ interface BudgetProps {
   prevPath?: string;      // Optional prop to customize the "NEXT" button path
 }
 
-const Budget = ({ budgetRanges, nextPath = "/emi", prevPath = '/mode' }: BudgetProps) => {
+const Budget = ({ budgetRanges, nextPath = "/CollegeFinder-emi", prevPath = '/CollegeFinder-mode' }: BudgetProps) => {
   const [selectedBudget, setSelectedBudget] = useState<string | null>(null);
   const [canProceed, setCanProceed] = useState<boolean>(false);
 

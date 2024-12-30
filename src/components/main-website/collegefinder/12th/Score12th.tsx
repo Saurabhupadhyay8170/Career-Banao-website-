@@ -42,7 +42,7 @@ const Score12th = () => {
             PREV
           </button>
         </Link>
-        <Link to="/question12th">
+        <Link to="/CollegeFinder-question12th">
           <button
             className={`${
               canProceed ? "bg-[#1F618D]" : "bg-gray-400 cursor-not-allowed"

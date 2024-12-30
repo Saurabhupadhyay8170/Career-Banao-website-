@@ -7,8 +7,8 @@ const AdmissionQues12th = () => {
 
   // Array of education levels
   const EmployQue = [
-    { label: "Yes", path: "/mode" },
-    { label: "No", path: "/adtaken" }
+    { label: "Yes", path: "/CollegeFinder-mode" },
+    { label: "No", path: "/CollegeFinder-adtaken" }
   ];
 
   // Handle button click to set selected education level
